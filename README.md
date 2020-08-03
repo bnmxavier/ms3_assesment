@@ -3,14 +3,18 @@ Java  program to read csv's and input valid records into an sql database. The pr
 
 
 Instructions:
-Assuming maven is avaliable in system path
-1. Open command line and cd to the ms3_maven_project dir 
-2. Delete the directory target (I uploaded the project before I added the gitignore)
+
+Note: The program and instructions were written and tested on a Windows 10 machine. Instructions should apply to nix systems as well.
+
+Assuming maven is available in system path
+1. Open command line and change directory to the ms3_maven_project directory 
+2. Delete the directory target (I uploaded the project before I added the gitignore, maven should re-compile this directory for your machine but delete it just in case)
 3. run 'mvn compile'
 4. Copy the target .csv file to ms3_maven_project/target/classes
 5. Run the program with 'java com.company.Main <input_filename>'. Do not include the csv file extension in the command line argument
 6. Output files will be found in ms3_maven_project/target/classes
 
+Alternatively you could open the project as an existing project using the IDE of your choice, I used IntelliJ Community 2020.1.4.  
 
 Approach Overview
 
